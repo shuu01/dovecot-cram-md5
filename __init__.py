@@ -32,7 +32,6 @@ http://python.net/~gherman/
 """
 
 import struct, hashlib, array, binascii
-from itertools import zip_longest
 
 def _bytelist2long(lst):
     "Transform a list of characters into a list of longs."
